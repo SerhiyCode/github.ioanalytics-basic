@@ -155,7 +155,7 @@ img {
 .header__btns {
   z-index: 2;
 }
-.header__btns--transparent {
+.header__btns .header__btn--transparent {
   border: 1px solid transparent;
   background-color: transparent;
   border-radius: 68px;
@@ -164,7 +164,7 @@ img {
   padding: 10px 53px;
   cursor: pointer;
 }
-.header__btns--circled {
+.header__btns .header__btn--circled {
   border: 1px solid #f8f9ff;
   background-color: transparent;
   border-radius: 68px;

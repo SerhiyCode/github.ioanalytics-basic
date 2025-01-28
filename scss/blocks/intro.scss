@@ -73,11 +73,11 @@
 
   .header__btns { 
     z-index: 2;
-     &--transparent {
+    .header__btn--transparent{
         @include btn(transparent, transparent, 68px, $gray, 16px, 10px, 53px);
      } 
 
-     &--circled {
+    .header__btn--circled {
        @include btn($light-gray, transparent, 68px, $gray, 16px, 10px, 53px);
      }
   }
