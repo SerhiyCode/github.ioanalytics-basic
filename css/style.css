@@ -323,4 +323,145 @@ img {
   box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
 }
 
+.pricing-plans {
+  position: relative;
+  padding-top: 280px;
+  padding-bottom: 100px;
+}
+.pricing-plans::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #172755;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+}
+.pricing-plans::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -17px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #ef2a82;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+}
+.pricing-plans__description {
+  margin-bottom: 80px;
+}
+.pricing-plans__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.pricing-plans__text-block {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.pricing-plans__rates {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing-plans__rates .rates-item {
+  border-radius: 30px;
+  box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
+  background: #0f1f4b;
+  padding: 50px 66px 70px;
+  text-align: center;
+}
+.pricing-plans__rates .rates-item__title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.pricing-plans__rates .rates-item__text-block {
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #8794ba;
+  margin-bottom: 66px;
+}
+.pricing-plans__rates .rates-item__text-block::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 1px;
+  background: #d3d9e9;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pricing-plans__rates .rates-item__price {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.pricing-plans__rates .rates-item__currency {
+  font-size: 30px;
+}
+.pricing-plans__rates .rates-item__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40%;
+  text-align: center;
+  color: #8794ba;
+  margin-bottom: 40px;
+}
+.pricing-plans__rates .rates-item__order-btn {
+  border: 1px solid #2a407c;
+  background-color: transparent;
+  border-radius: 68px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
+.pricing-plans__rates .rates-item--pink {
+  box-shadow: 0 18px 50px -15px #060f28;
+  background: #fff;
+}
+.pricing-plans__rates .rates-item--pink .rates-item__title,
+.pricing-plans__rates .rates-item--pink .rates-item__price {
+  color: #172755;
+}
+.pricing-plans__rates .rates-item--pink .rates-item__order-btn {
+  border: 1px solid #ef2a82;
+  background-color: #ef2a82;
+  border-radius: 68px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.pricing-plans__rates .rates-item--pink .rates-item__order-btn:hover {
+  border: 1px solid #ef2a82;
+  background-color: transparent;
+  border-radius: 68px;
+  color: #ef2a82;
+  font-size: 16px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
