@@ -1,6 +1,6 @@
 
 .intro-analytics { 
-    // background: $background-dark-blue;        
+    
     padding-top: 50px;   
     overflow: hidden;
 
@@ -134,6 +134,10 @@
     &__btn {
       @include btn(transparent, $pink, 68px, #fff, 16px, 15px, 80px);
       transition: all 0.5s;
+      
+    &:hover {
+      @include btn($pink, transparent, 68px, #fff, 16px, 15px, 80px);
+    }
   
     &__pictures {
         position: relative;

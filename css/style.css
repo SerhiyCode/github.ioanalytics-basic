@@ -228,6 +228,15 @@ img {
   cursor: pointer;
   transition: all 0.5s;
 }
+.dashboard__btn:hover {
+  border: 1px solid #ef2a82;
+  background-color: transparent;
+  border-radius: 68px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
 .dashboard__btn__pictures {
   position: relative;
   z-index: 1;
@@ -459,6 +468,24 @@ img {
   background-color: transparent;
   border-radius: 68px;
   color: #ef2a82;
+  font-size: 16px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
+.pricing-plans__rates .rates-item:first-child .rates-item__order-btn:hover {
+  border: 1px solid #ef2a82;
+  background-color: #ef2a82;
+  border-radius: 68px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
+.pricing-plans__rates .rates-item:nth-child(3) .rates-item__order-btn:hover {
+  border: 1px solid #ef2a82;
+  background-color: #ef2a82;
+  border-radius: 68px;
+  color: #fff;
   font-size: 16px;
   padding: 15px 80px;
   cursor: pointer;
