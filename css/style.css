@@ -464,4 +464,41 @@ img {
   cursor: pointer;
 }
 
+.footer-menu {
+  background: #172755;
+}
+.footer-menu__wrapper {
+  border-top: 1px solid #2a407c;
+  padding-top: 63px;
+  padding-bottom: 103px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu__logo {
+  display: flex;
+  align-items: center;
+}
+.footer-menu__logo img {
+  margin-right: 10px;
+}
+.footer-menu__logo p {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.footer-menu__list {
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu__link {
+  text-decoration: none;
+}
+.footer-menu__links {
+  display: flex;
+  justify-content: space-between;
+  width: 135px;
+}
+
 /*# sourceMappingURL=style.css.map */
