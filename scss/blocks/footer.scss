@@ -40,3 +40,19 @@
       width: 135px;        
    }
 }
+
+@media screen and (max-width: 768px) {
+  .footer-menu__list {
+     display: none;
+  }   
+}
+
+@media screen and (max-width: 380px) {
+   .footer-menu__wrapper {
+      flex-flow: column wrap; 
+      align-items: center;
+      gap: 35px; 
+      padding-top: 43px;
+      padding-bottom: 60px;
+   }   
+}
